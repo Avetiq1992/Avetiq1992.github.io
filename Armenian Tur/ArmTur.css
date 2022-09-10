@@ -1,0 +1,286 @@
+body {
+    background-color:rgb(232, 229, 229);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #373b3b;
+    width: 100vw;
+    height: 50px;
+    margin: 0;
+}
+
+header a img {
+    height: 40px;
+    margin: 5px;
+    margin-left: 40px;
+
+}
+
+.language {
+    width: 4vw;
+    background-color: #373b3b;
+    color: red;
+    border: solid 2px red;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 40px;
+}
+
+.language option {
+    background-color: white;
+    color: black;
+}
+
+#menu {
+    background-color: #373b3b;
+    color: blue;
+    height: 39px;
+    width: 5vw;
+    margin: 5px 40px;
+    border: solid 2px blue;
+    border-radius: 5px;
+}
+
+#menu option {
+    background-color: white;
+    color: black;
+}
+
+.Serch {
+    display: flex;
+    margin: 5px;
+    margin-left: 40px;
+}
+
+.Serch input {
+    border: solid 2px orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 33px;
+    width: 25vw;
+}
+
+.Serch button {
+    border: solid 2px orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 39px;
+    width: 3vw;
+}
+
+.Serch button img {
+    height: 33px;
+    margin: 0;
+}
+
+#acaunt {
+    display: flex;
+    margin: 5px 40px;
+    height: 42px;
+    width: 42px;
+    padding: 0;
+    background-color: #373b3b;
+    border: solid 2px orange;
+    border-radius: 5px;
+}
+
+#acaunt img {
+    height: 39px;
+    width: 39px;
+}
+
+#Sign {
+    background-color: #373b3b;
+    color: orange;
+    border: solid 2px orange;
+    border-radius: 5px;
+    margin: 5px 40px;
+    width: 100px;
+}
+#Sign a{
+    color: orange;
+    text-decoration: none;
+}
+
+.slideShow {
+    animation: borderAnim 3s infinite;
+    display: flex;
+    margin: 10px 30px;
+    border: solid 5px;
+    border-radius: 5px;
+    box-shadow: 20px 10px 40px  #909090;
+}
+.slideShow div{
+    color: whitesmoke;
+}
+
+@keyframes borderAnim {
+    0% {
+        border-color: red;
+    }
+
+    50% {
+        border-color: blue;
+    }
+
+    75% {
+        border-color: orange;
+    }
+
+    100% {
+        border-color: red;
+    }
+
+}
+
+.a {
+    display: flex;
+    width: 30vw;
+    height: 200px;
+}
+main{
+    display: flex;
+}
+.Division{
+    width: 65vw;
+}
+.abaut {
+    position: relative;
+    display:inline-block;
+    box-shadow: 20px 10px 40px #909090;
+    background-color: rgb(155, 177, 220);
+    border: solid 3px grey;
+    border-radius: 10px;
+    margin: 30px;
+    height: 280px;
+    width: 16vw;
+}
+
+.abaut img {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    height: 150px;
+    width: 16vw;
+    border: solid 1px black;
+}
+.abaut button{
+    background-color: rgba(222, 220, 249, 0.676);
+    color: rgb(55, 6, 172 #909090);
+    box-shadow:10px 5px 10px ;
+    display: flex;
+    margin: 10px 5px;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.abaut button:hover{
+    box-shadow: 5px 5px 5px rgb(77, 60, 60); 
+}
+#tur button{
+    background-color: rgba(222, 220, 249, 0.676);
+    color: rgb(55, 6, 172 #909090);
+    box-shadow:10px 5px 10px ;
+    display: flex;
+    display: inline;
+    margin: 10px 5px;
+    padding: 1px 5px;
+    border-radius: 5px ;
+}
+#tur button:hover{
+    box-shadow: 5px 5px 5px rgb(77, 60, 60); 
+}
+.abaut h2{
+    color: black;
+    text-align: center;
+    margin:50px 20px;
+    text-shadow: 30px 10px 10px #909090;
+}
+.abaut a{
+    text-decoration: none;
+    color: black;
+}
+#tur h2{
+    color: black;
+    text-align: center;
+    margin:20px 20px;
+    text-shadow: 30px 10px 10px #909090;
+}
+.tur a{
+    text-decoration: none;
+    color: black;
+}
+canvas{
+    display: inline;
+    border: solid 2px grey;
+    border-radius: 10px;
+    box-shadow: 30px 20px 20px #909090;
+}
+#Canvasd{
+    margin: 50px;
+    display:inline-block;
+    width: 350px;
+    height: 400px;
+}
+#Canvasd button{
+    box-shadow:10px 5px 10px ;
+    background-color: rgba(222, 220, 249, 0.676);
+    color: rgb(55, 6, 172 #909090);
+    border-radius: 5px;
+    display: flex;
+    margin: 10px;
+}
+#Canvasd button:hover{
+    box-shadow: 5px 5px 5px rgb(77, 60, 60);   
+}
+#Canvasd button a{
+    color: black;
+    text-decoration: none;
+}
+#slidefoot{
+    display: flex;
+    margin: 40px;
+}
+#footstart {
+  width: 100vw;
+  height: 40px;
+  background-color: #373b3b;
+}
+#footstart a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aqua;
+}
+#footmanu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 300px;
+    background-color: grey;
+}
+#footmanu div{   
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+#footmanu h3{
+    text-align: center;
+}
+#footmanu a {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+#footmanu a:hover{
+    text-decoration:underline;
+    text-transform:uppercase;
+    text-shadow: 5px 5px 5px #373b3b;
+    
+}

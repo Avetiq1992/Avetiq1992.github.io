@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ArmTur.css">
+    <title>ArmTour</title>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="./ArmTur.html">
+            <img src="./image/logo.png">
+        </a>
+        <select class="language">
+            <option value="/arm/">ARM</option>
+            <option value="/en/">EN</option>
+            <option value="/ru/">RU</option>
+            <option value="/fr /">FR</option>
+        </select>
+        <select id="menu">
+            <option>MENU</option>
+            <option>Why Armenia</option>
+            <option>History of Armenia</option>
+            <option>Armenian Culture</option>
+            <option>Places of Interest</option>
+            <option>Hotels and Restaurant</option>
+            <option>Tour Agency</option>
+        </select>
+        <form class="Serch">
+            <input type="text" id="search">
+            <button>
+                <img src="./image/serch.jpg" alt="">
+            </button>
+
+        </form>
+        <button id="acaunt">
+            <img src="./image/acaunt.png">
+        </button>
+        <button id="Sign"><a href="./sign in/sign.html">SIGN IN</a></button>
+    </header>
+    <div class="slideShow">
+        <div class="a" style="background-image: url(./image/slide/1.jpg) ">Zvartnoc</div>
+        <div class="a" style="background-image: url(./image/slide/2.jpg) ">Tatev</div>
+        <div class="a" style="background-image: url(./image/slide/3.jpeg)"></div>
+        <div class="a" style="background-image: url(./image/slide/4.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/5.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/6.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/7.jpg)"></div>
+    </div>
+    <main>
+        <div class="Division">
+            <div class="abaut">
+                <img src="./image/historimain.webp" alt="">
+                <button><a href="">History of Armenia</a></button>
+                <button><a href="">Armenian Culture</a></button>
+                <button><a href="">Places of Interest</a></button>
+                <h2>Histori of Armenia</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/hotel.png" alt="">
+                <button><a href="">Hotels</a></button>
+                <button><a href="">Restaurant</a></button>
+                <button><a href="">Houses</a></button>
+                <h2>Place to Live</h2>
+            </div>
+            <div id="tur" class="abaut">
+                <img src="./image/armmm.jpg" alt="">
+                <button><a href="">Historicol</a></button>
+                <button><a href="">Wine and Cuisine</a></button>
+                <button><a href="">Archeological</a></button>
+                <button><a href="">Jeep</a></button>
+                <button><a href="">Educational</a></button>
+                <button><a href="">Trekking</a></button>
+                <h2>Tipe of Tour</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/tourist.webp" alt="">
+                <button><a href="">Your Route</a></button>
+                <button><a href="">Your Location</a></button>
+                <button><a href="">Help</a></button>
+                <h2>You</h2>
+            </div>
+            <div class="abaut">
+                <img src="./image/travel in armenia.png" alt="">
+                <button><a href="">Travel by Myself</a></button>
+                <button><a href="">Tour Agencies</a></button>
+                <button><a href="">Guide</a></button>
+                <h2>Tour</h2>
+            </div>
+            <div class="abaut">
+
+            </div>
+
+        </div>
+        <div id="Canvasd">
+            <canvas width="300" height="300"></canvas>
+            <button onclick="addCell(1)">Aragatsotn</button>
+            <button onclick="addCell(2)">Ararat</button>
+            <button onclick="addCell(3)">Armavir</button>
+            <button onclick="addCell(4)">Gegharkunik</button>
+            <button onclick="addCell(5)">Kotayk</button>
+            <button onclick="addCell(6)">Lori</button>
+            <button onclick="addCell(7)">Shirak</button>
+            <button onclick="addCell(8)">Syunik</button>
+            <button onclick="addCell(9)">Tavush</button>
+            <button onclick="addCell(10)">Vayots Dzor</button>
+            <button onclick="addCell(11)">Yerevan</button>
+        </div>
+    </main>
+    <div id="slidefoot" class="slideShow">
+        <div class="a" style="background-image: url(./image/slide/1.jpg) ">Zvartnoc</div>
+        <div class="a" style="background-image: url(./image/slide/2.jpg) ">Tatev</div>
+        <div class="a" style="background-image: url(./image/slide/3.jpeg)"></div>
+        <div class="a" style="background-image: url(./image/slide/4.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/5.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/6.jpg)"></div>
+        <div class="a" style="background-image: url(./image/slide/7.jpg)"></div>
+    </div>
+    <footer>
+        <div id="footstart">
+            <a href="#">......</a>
+        </div>
+        <div id="footmanu">
+            <div>
+                <h3>Histori of Armenia</h3>
+                <a href="">History of Armenia</a>
+                <a href="">Armenian Culture</a>
+                <a href="">Places of Interest</a>
+            </div>
+            <div>
+                <h3>Place to Live</h3>
+                <a href="">Hotels</a>
+                <a href="">Restaurant</a>
+                <a href="">Houses</a>
+            </div>
+            <div>
+                <h3>Tipe of Tour</h3>
+                <a href="">Historicol</a>
+                <a href="">Wine and Cuisine</a>
+                <a href="">Archeological</a>
+                <a href="">Jeep</a>
+                <a href="">Educational</a>
+                <a href="">Trekking</a>
+            </div>
+            <div>
+                <h3>You</h3>
+                <a href="">Your Route</a>
+                <a href="">Your Location</a>
+                <a href="">Help</a>
+            </div>
+            <div>
+                <h3>Tour</h3>
+                <a href="">Travel by Myself</a>
+                <a href="">Tour Agencies</a>
+                <a href="">Guide</a>
+            </div>
+            <div>
+                <h3>Armenian province</h3>
+                <a href="">Aragatsotn</a>
+                <a href="">Ararat</a>
+                <a href="">Armavir</a>
+                <a href="">Gegharkunik</a>
+                <a href="">Kotayk</a>
+                <a href="">Lori</a>
+                <a href="">Shirak</a>
+                <a href="">Syunik</a>
+                <a href="">Tavush</a>
+                <a href="">Vayots Dzor</a>
+                <a href="">Yerevan</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js "></script>
+
+</body>
+
+</html>
