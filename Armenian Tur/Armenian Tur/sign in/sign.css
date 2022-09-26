@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#signPage {
+    width: 28vw;
+    height: 580px;
+    margin-top: 30px;
+    background-color: #e8e5e5;
+    border: solid 3px black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#signPage input{
+    width: 20vw;
+    height: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+#signPage button{
+    margin-top: 20px;
+    width: 20.5vw;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: #01aad3;
+    border-radius: 8px;
+    border: none;
+}
+#signPage button:hover{
+    background-color:rgb(94, 119, 244) ;
+}
+#signPage a{
+    text-decoration: none;
+    margin-top: 30px;
+    
+}

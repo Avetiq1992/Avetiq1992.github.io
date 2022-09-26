@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signUp.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Armenian tour</h1>
+    <div id="signUp">
+        <div id="signUpPage" >
+            <h2>Sign up</h2>
+            <div class="nameIn">
+                <input id="Names" type="text" placeholder="Name">
+                <input id="LastName" type="text" placeholder="Last Name">
+            </div>
+            <div id="logPas">
+                <input id="email" type="email" placeholder=" Email">
+                <input id="password" type="password" placeholder="Password" >
+                <button class="eye"><img src="./eye.png" alt=""></button>
+            </div>
+            <div id="inputLab">
+                <label for="femele">Femele<input type="radio" id="femele" name="os"></label>
+                <label for="male">Male<input type="radio" id="male" name="os"></label>
+                <label for="other">Other<input type="radio" id="other" name="os"></label>
+            </div>
+            <div id="birtday">
+                <label for="bd">Date of Birth</label>
+                <input id="bd" type="date" name="bd">
+            </div>
+            <button onclick="signup()" id="reg">Registration</button>
+            <div id="regForLog">
+               <button><a href="https://www.facebook.com/"> <img src="./face.png" alt=""></a></button>
+               <button><a href="https://accounts.google.com/"> <img src="./goog.png" alt=""></a></button>
+            </div>
+        </div>
+    </div>
+    <script src="./signUp.js"></script>
+</body>
+
+</html>
