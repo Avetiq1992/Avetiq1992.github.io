@@ -1,5 +1,5 @@
 body {
-    background-color: #e8e5e5;
+    background-color: gray;
 }
 h1{
     text-align: center;
@@ -12,10 +12,10 @@ h1{
 }
 
 #signPage {
-    width: 30vw;
-    height: 450px;
-    margin-top: 50px;
-    background-color: white;
+    width: 28vw;
+    height: 580px;
+    margin-top: 30px;
+    background-color: #e8e5e5;
     border: solid 3px black;
     border-radius: 10px;
     box-shadow: 10px 10px 30px 5px;
@@ -25,9 +25,9 @@ h1{
 
 }
 #signPage input{
-    
     width: 20vw;
     height: 30px;
+    margin: 30px;
     border-radius: 8px;
     background-color: whitesmoke;
 }
@@ -35,12 +35,15 @@ h1{
 #signPage button{
     margin-top: 20px;
     width: 20.5vw;
-    height: 35px;
-    background-color: rgb(219, 191, 191);
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: #01aad3;
     border-radius: 8px;
+    border: none;
 }
 #signPage button:hover{
-    background-color:rgb(219, 158, 158) ;
+    background-color:rgb(94, 119, 244) ;
 }
 #signPage a{
     text-decoration: none;
